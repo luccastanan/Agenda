@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_salva"
+        android:icon="@drawable/ic_action_tick"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"
+        android:visible="false"
+        android:title="Ok"/>
+
+    <item
+        android:id="@+id/menu_altera"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"
+        android:title="Aditar" />
+
+    <item
+        android:id="@+id/menu_deleta"
+        android:icon="@drawable/ic_action_cancel"
+        android:orderInCategory="100"
+        yourapp:showAsAction="always"
+        android:title="Excluir" />
+
+</menu>
